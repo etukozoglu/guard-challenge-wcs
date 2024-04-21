@@ -10,6 +10,7 @@ import { AccountModule } from './modules/account/account.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AdminRoutingModule } from './modules/admin/admin-routing.module';
 import { AccountRoutingModule } from './modules/account/account-routing.module';
+import { DashboardModule } from './modules/dashboard/dashboard.module';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -23,6 +24,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     AdminModule,
     AccountModule,
+    DashboardModule,
     AppRoutingModule
   ],
   providers: [],
